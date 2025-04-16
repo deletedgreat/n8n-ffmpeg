@@ -1,7 +1,7 @@
 FROM node:18-bullseye
 
 # Set up environment
-ENV N8N_VERSION=1.44.0
+ENV N8N_VERSION=1.88.0
 
 # Install required packages
 RUN apt-get update && \
