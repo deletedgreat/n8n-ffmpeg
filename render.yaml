@@ -11,7 +11,7 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: C@lvario123
       - key: N8N_HOST
-        value: n8n-txih.onrender.com
+        value: https://n8n-ffmpeg-3618.onrender.com
       - key: N8N_PORT
         value: 443
       - key: N8N_PROTOCOL
