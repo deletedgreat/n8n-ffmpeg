@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: n8n-ffmpeg
+    env: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: N8N_BASIC_AUTH_USER
+        value: deliosorlanda@gmail.com
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: C@lvario123
+      - key: N8N_HOST
+        value: n8n-txih.onrender.com
+      - key: N8N_PORT
+        value: 443
+      - key: N8N_PROTOCOL
+        value: https
